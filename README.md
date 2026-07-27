@@ -34,3 +34,34 @@ A lightweight and interactive script for Windows (`.bat`) and macOS (`.command`)
 2. Open Terminal and make the file executable by running:
    ```bash
    chmod +x ~/Sites/"PHP multi Device Server.command"
+
+## 🇮🇩 Versi Bahasa Indonesia
+
+Skrip interaktif ringan untuk Windows (`.bat`) dan macOS (`.command`). Skrip ini memudahkan Anda untuk membagikan project Laravel (atau PHP) lokal Anda ke perangkat lain dalam satu jaringan WiFi (LAN) atau secara publik menggunakan *tunnel* Ngrok.
+
+### Fitur Utama
+
+* **Pemilih Project Otomatis:** Otomatis memindai dan menampilkan daftar folder project di direktori `Sites` Anda (`D:\Sites` di Windows, `~/Sites` di macOS).
+* **Deteksi IP Otomatis:** Mengambil IP Address lokal secara otomatis tanpa perlu konfigurasi manual.
+* **Dua Mode Jaringan:**
+  1. **Mode Jaringan Lokal:** Akses website dari HP, tablet, atau laptop lain yang terhubung di WiFi yang sama.
+  2. **Mode Publik (Ngrok):** Buka akses website Anda ke seluruh dunia via internet melalui Ngrok.
+
+### Persyaratan Sistem
+
+* **OS:** Windows atau macOS.
+* **PHP:** Terinstal di sistem (bawaan Laravel Herd sudah cukup).
+* **Ngrok:** *(Opsional, hanya jika ingin menggunakan mode publik/internet)*. Unduh di [ngrok.com](https://ngrok.com/download).
+
+### Cara Instalasi & Penggunaan
+
+#### Pengguna Windows
+1. Simpan file `PHP multi Device Server.bat` di folder mana saja (disarankan di `D:\Sites`).
+2. *(Opsional)* Letakkan file `ngrok.exe` di folder yang sama dengan skrip ini.
+3. Klik dua kali (*double-click*) file `.bat` tersebut untuk menjalankannya.
+
+#### Pengguna macOS
+1. Simpan file `PHP multi Device Server.command` di folder `~/Sites`.
+2. Buka Terminal dan berikan izin *execute* (cukup sekali saja) dengan perintah:
+   ```bash
+   chmod +x ~/Sites/"PHP multi Device Server.command"
