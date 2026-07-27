@@ -2,7 +2,6 @@
 TITLE Laravel Herd Multi-Device & Ngrok Selector
 color 0b
 
-:: 1. Ambil khusus IPv4 Address yang aktif (mengabaikan fe80/IPv6)
 FOR /F "tokens=2 delims=:" %%a IN ('ipconfig ^| findstr /i "IPv4"') DO (
     set "IP=%%a"
     goto :get_ip
@@ -19,7 +18,6 @@ echo.
 setlocal enabledelayedexpansion
 set "count=0"
 
-:: 2. Menampilkan daftar folder di D:\Sites
 for /d %%D in (D:\Sites\*) do (
     set /a count+=1
     set "project[!count!]=%%~nxD"
