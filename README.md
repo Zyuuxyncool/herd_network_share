@@ -28,7 +28,7 @@ A lightweight and interactive Windows Batch (`.bat`) script designed for Laravel
 2. The script will display a numbered list of all your projects found in `D:\Sites`.
 3. Type the number corresponding to the project you want to run and press **Enter**.
 4. Choose your networking mode:
-   * Type `1` for Local Network access (will provide a local URL like `http://192.168.x.x:8000`).
+   * Type `1` for Local Network access (will provide a local URL like `http://192.168.x.x:80`).
    * Type `2` for Public internet access via Ngrok.
 5. Open the provided link in your browser or mobile device!
 
